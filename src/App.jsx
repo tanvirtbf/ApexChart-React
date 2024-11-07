@@ -1,15 +1,14 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
-
 import "./App.css";
-import DonutChart from "./components/DonutChart";
+import Chart from "./components/Chart";
 
 function App() {
   return (
     <div>
-      <DonutChart />
+      <Chart />
     </div>
-  )
+  );
 }
 
 export default App;
